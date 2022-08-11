@@ -1,0 +1,71 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/05/HD-Purple-Wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#fundo{
+  margin: auto;
+  padding: 32px;
+  width: 1200px;
+  background-color: rgba(255, 255, 255, 0.384);
+  border-radius: 30px;
+}
+header{
+ background-color: black;
+ padding: 10px;
+ font-size: 20pt;
+ display: flex;
+ justify-content: space-between;
+}
+header nav{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+	
+}
+.link_header{
+  text-decoration: none;
+  color: blueviolet;
+}
+.link_header:hover{
+  text-decoration: underline;
+  color: white;
+  text-shadow: blueviolet;
+}
+div h1{
+  text-align: center;
+  margin-bottom: 15px;
+}
+#imagem{
+  border-radius: 260px;
+  margin-right: 20px;
+  width: 500px;
+}
+#about_me{
+  display: flex;
+  font-size: 20pt;
+  text-align: justify;
+}
+button{
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  margin: 20px;
+  width: 100px;
+  height: 40px;
+}
+button:hover{
+  background-color: rgb(255, 255, 255);
+  color: blueviolet;
+  border-radius: 10px;
+  margin: 20px;
+  width: 100px;
+  height: 40px;
+}
+
